@@ -1,0 +1,7 @@
+imdb/
+venv/
+__pycache__/
+*.png
+*.csv
+*.duckdb
+some_queries/

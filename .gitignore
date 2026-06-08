@@ -1,7 +1,7 @@
 imdb/
 venv/
 __pycache__/
-*.png
-*.csv
+benchmark_graphs/
+benchmark_data/
 *.duckdb
 some_queries/

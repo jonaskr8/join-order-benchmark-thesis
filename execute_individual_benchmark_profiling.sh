@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+## This script measures for each query individually the execution time for different thresolds. 
+## The results are saved in a csv file with the following format: query_name,threshold,repetition,time.
+
 SQL_DIR="/home/jonas/Studium/Master/Thesis/join-order-benchmark/some_queries"
 OUT_FILE="$1"
 DB_FILE="/home/jonas/Studium/Master/Thesis/join-order-benchmark/benchmark.duckdb"

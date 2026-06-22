@@ -81,5 +81,7 @@ if optimizer_timings_by_threshold:
             f.write(f"{threshold},{optimizer_timing},{sum_joins}\n")
 else:
     print("Warning: no profiling results to aggregate.")
-for json_file in output_dir.glob("*.json"):
-    json_file.unlink()
+
+# # Delete JSON files after processing
+# for json_file in output_dir.glob("*.json"):
+#     json_file.unlink()
